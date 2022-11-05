@@ -8,7 +8,7 @@ A convolutional neural network for  point target detection using reflected radar
 
 ![alt text](architecture/cnn_radar.gif)
 
-Please download the raw radar data from [figshare](https://figshare.com/articles/dataset/Radar_signal_data/21507093). Extract the zip file in the root directory and execute the code. This will train and evaluate the CNN on the dataset.
+Please download the raw radar data from [figshare](https://figshare.com/articles/dataset/Radar_signal_data/21507093). Extract the zip file in the root directory and execute the code below. This will train and evaluate the CNN on the dataset.
 
 ```
 python DL_Radar_CS1.py
