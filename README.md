@@ -6,10 +6,7 @@ A convolutional neural network for  point target detection using reflected radar
 
 ## CNN Architecture
 
-
-
-![alt text](results/epoch40_test10.png)
-
+![alt text](architecture/cnn_radar.gif)
 
 Please download the raw radar data from [figshare](https://figshare.com/articles/dataset/Radar_signal_data/21507093). Extract the zip file in the root directory and execute the code. This will train and evaluate the CNN on the dataset.
 
@@ -22,3 +19,7 @@ A denoising CNN is implemented to filter out the noise of traditional radar imag
 ```
 python DL_Radar_Denoise1.py
 ```
+
+## Test sample
+
+![alt text](results/epoch40_test10.png)
